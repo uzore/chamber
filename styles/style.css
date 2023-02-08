@@ -80,12 +80,12 @@
     textarea {
         /* To make sure that all text fields have the same font settings
        By default, textareas have a monospace font */
-        font: 1em sans-serif;
+        font: 0.7em sans-serif;
         /* Uniform text field size */
         width: 300px;
         box-sizing: border-box;
         /* Match form field borders */
-        border: 1px solid #999;
+        border: 1px solid #05061e;
     }
     
     input:focus,
@@ -96,7 +96,7 @@
     
     textarea {
         /* Align multiline text fields with their labels */
-        vertical-align: top;
+        vertical-align: left;
         /* Provide space to type some text */
         height: 5em;
     }
@@ -112,6 +112,70 @@
        between the labels and their text fields */
         margin-left: .5em;
     }
+    #container {
+        width: 18.75rem;
+        height: 28rem;
+        margin: auto;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+    
+    fieldset {
+        border: 0;
+        text-align: center;
+    }
+    
+    input[type="submit"] {
+        background: rgba(16, 15, 100, 0.014);
+        border: 1rem;
+        display: block;
+        width: 70%;
+        margin: 0 auto;
+        color: #05061e;
+        padding: 0.7rem;
+        cursor: pointer;
+        border-color: #05061e;
+    }
+    
+    input {
+        background: transparent;
+        border: 0;
+        border-left: 4px solid;
+        border-color: #05061e;
+        padding: 10px;
+        color: #05061e;     
+    }
+    
+    input[type="text"]:focus,
+    input[type="email"]:focus,
+    input[type="password"]:focus {
+        outline: 0;
+        background: #ffffff;
+        border-radius: 1.2rem;
+        border-color: transparent;
+    }
+    
+    ::placeholder {
+        color: #05061e;
+    }
+    
+    /*Media queries */
+    
+    @media all and (min-width: 481px) and (max-width: 568px) {
+        #container {
+            margin-top: 10%;
+            margin-bottom: 10%;
+        }
+    }
+        @media all and (min-width: 569px) and (max-width: 768px) {
+            #container {
+                margin-top: 5%;
+                margin-bottom: 5%;
+            }
+        }
     
     .hero-btn {
         display: inline-block;
