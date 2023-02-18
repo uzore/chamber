@@ -36,7 +36,7 @@
     }
 
     {
-        "companyName": "ABuja National Stadium",
+        "companyName": "Abuja National Stadium",
         "homeTown": "Abuja City",
         "Address": "Central Area Garki, Abuja",
         "Phone number": ["+234-80600-0650"]
@@ -57,8 +57,8 @@
         "companyName": "Abuja Continental Hotel",
         "homeTown": "Abuja City",
         "Address": "Central Area Garki, Abuja",
-        "Phone number": ["+234-80600-0650"]
-        "websiteURL": "https://abujacontinental.com,
+        "Phone number": ["+234-80600-0650"],
+        "websiteURL": "https://abujacontinental.com",
         "membership level": "gold"
     }
 
